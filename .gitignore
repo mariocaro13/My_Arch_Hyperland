@@ -1,7 +1,12 @@
+# Ignore all
 *
-!utils/
-!hypr/
-!kitty/
-!wal/
-!waybar/
-!swaync/
+
+# Dont ignore .gitignore
+!.gitignore
+
+!/utils/
+!/hypr/
+!/kitty/
+!/wal/
+!/waybar/
+!/swaync/

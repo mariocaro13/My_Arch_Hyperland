@@ -1,0 +1,28 @@
+@import '../../.cache/wal/colors-waybar.css';
+
+@define-color	background-module	@trasparent;
+@define-color	border-color		@color10;
+@define-color	button-color		@color11;
+@define-color	button-hover		@color12;
+
+.modules-right, .modules-left, .modules-center {
+	background-color: @background-module;
+	color: aliceblue;
+	border: 1px solid @border-color;
+	border-radius: 10px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#waybar {
+	background: linear-gradient(0deg, @border-color, black);
+}
+
+#custom-notification {
+}
+
+#clock{
+}
+
+#tray{
+}
